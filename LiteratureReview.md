@@ -21,7 +21,7 @@
   + AppContext: Differentiating Malicious and Benign Mobile App Behavior Under Contexts, ICSE 2014
   + AsDroid: Detecting Stealthy Behaviors in Android Applications by User Interface and Program Behavior Constradiction, ICSE 2014
   + Android Taint Flow Analysis for App Sets, SOAP 2014
-  + Finding Unknown Malice in 10 Seconds: Mass Vetting for New Threats at the Google-Play Scale, USENIX Security 2015
+  + Finding Unknown Malice in 10 Seconds: Mass Vetting for New Threats at the Google-Play Scale, USENIX Security 2015 (tool: MassVet)
   + Information Flow Analysis of Android Applications in DroidSafe, NDSS 2015
   + EdgeMiner: Automatically Detecting Implicit Control Flow Transitions through the Android Framework, NDSS 2015
   + IccTA: Detecting Inter-Component Privacy Leaks in Android Apps, ICSE 2015
@@ -44,9 +44,11 @@
   + AndroTotal: A Flexible, Scalable Toolbox and Service for Testing Mobile Malware Detector, SPSM 2013
   + PUMA: Programmable UI-automation for Large-scale Dynamic Analysis of Mobile Apps, MobiSys 2014 (tool: PUMA)
   + Checking Interation-Based Declassification Policies for Android Using Symbolic Execution, ESORICS 2015 (tool: ClickRelease)
+  + BareDroid: Large-Scale Analysis of Android Apps on Real Devices, ACSAC 2015 (tool: BareDroid)
   + CopperDroid: Automatic Reconstruction of Android Malware Behaviors, NDSS 2015
   + Harvesting Runtime Values in Android Applications That Feature Anti-Analysis Techniques, NDSS 2016 (tool: HARVESTER)
   + IntelliDroid: A Targeted Input Generator for the Dynamic Analysis of Android Malware, NDSS 2016
+  + DroidScribe: Classifying Android Malware Based on Runtime Behavior, MoST 2016 (tool: DroidScribe)
 
 + Machine Learning
   + Crowdroid: Behavior-based Malware Detection System for Android, SPSM 2011
@@ -68,6 +70,7 @@
   + Mining Apps for Abnormal Usage of Sensitive Data, ICSE 2015
   + Obfuscation-Resilient, Efficient, and Accurate Detection and Family Identification of Android Malware, Technical Report, 2015 (tool: RevealDroid)
   + StormDroid: A Streaminglized Machine Learning-based System for Detecting Android Malware, AsiaCCS 2016
+  + DroidScribe: Classifying Android Malware Based on Runtime Behavior, MoST 2016 (tool: DroidScribe)
 
 + Fingerprint & matching
 
@@ -99,6 +102,7 @@
   + Testing Android Apps Through Symbolic Execution, ACM SIGSOFT Software Engineering Notes 2012
   + Systematic Testing for Resource Leaks in Android Applications, ISSRE 2013
   + Dynodroid: An Input Generation System for Android Apps, ESEC/FSE 2013 (tool: Dynodroid)
+  + Automated Test Input Generation for Android: Are We There Yet? ASE 2015
   + Systematic Execution of Android Test Suites in Adverse Conditions, ISSTA 2015
   + Reducing Combinatorics in GUI Testing of Android Applications, ICSE 2016 (tool: TrimDroid)
   + Sapienz: Multi-objective Automated Testing for Android Applications, ISSTA 2016 (tool: Sapienz)
@@ -130,7 +134,8 @@
 + An Empirical Study of Mobile Ad Targeting, arXir 2015
 + MAdScope: Characterizing Mobile In-App Targeted Ads, MobiSys 2015 (tool: MAdScope)
 + Are these Ads Safe: Detecting Hidden Attacks through the Mobile App-Web Interfaces, NDSS 2016
-+ Free for All! Assessing User Data Exposure to Advertising Libraries on Android, NDSS 2016
++ Free for All! Assessing User Data Exposure to Advertising Libraries on Android, NDSS 2016 (tool: Pluto)
++ Following Devil’s Footprints: Cross-Platform Analysis of Potentially Harmful Libraries on Android and iOS, S&P 2016 (tool: PhaLib)
 
 ## Inter-Component Communication Analysis
 + Analyzing Inter-Application Communication in Android, MobiSys 2011 (tool: ComDroid)
@@ -158,6 +163,7 @@
 + Surveying the Development of Biometric User Authentication on Mobile Phones, IEEE Communications Surveys & Tutorials, 2015
 + DeepDroid: Dynamically Enforcing Enterprise Policy on Android Devices, NDSS 2015
 + Boxify: Full-fledged App Sandboxing for Stock Android, USENIX Security 2015
++ EASEAndroid: Automatic Policy Analysis and Refinement for Security Enhanced Android via Large-Scale Semi-Supervised Learning, USENIX 2015
 + FLEXDROID: Enforcing In-App Privilege Separation in Android, NDSS 2016
 + Reference Hijacking: Patching, Protecting and Analyzing on Unmodified and Non-Rooted Android Devices, ICSE 2016 (prototype: PatchMan, ControlMan and TaintMan)
 + Automated Partitioning of Android Applications for Trusted Execution Environments, ICSE 2016
@@ -168,11 +174,14 @@
 + Permission Re-Delegation: Attacks and Defenses, USENIX Security 2011
 + Curbing Android Permission Creep, W2SP 2011
 + Android Permissions Demystified, CCS 2011
++ Is this App Safe? A Large Scale Study on Application Permissions and Risk Signals, WWW 2012
 + Android Security Permissions - Can we trust them? S&P 2012
 + PScout: Analyzing the Android Permission Specification, CCS 2012
 + Permission based Android security: Issues and Countermeasures, Computers&Security 2014
++ Exploring Permission-Induced Risk in Android Applications for Malicious Application Detection, TIFS 2014
 + Android Permission Remystified: A Field Study on Contextual Integrity, USENIX Security 2015
 + revDroid: Code Analysis of the Side Effects after Dynamic Permission Revocation of Android Apps, AsiaCCS 2016
++ Small Changes, Big Changes: An Updated View on the Android Permission System, RAID 2016
 
 ## Anti-Malware Tool Auditing
 + DroidChameleon: Evaluating Android Anti-malware Against Transformation Attacks, AsiaCCS 2013
@@ -190,9 +199,11 @@
 + ProfileDroid: Multi-layer Profiling of Android Applications, MobiCom 2012
 + Dissecting Android Malware: Characterization and Evoluation, S&P 2012
 + An Empirical Study of API Stability and Adoption in the Android Ecosystem, ICSM 2013
++ The Impact of Vendor Customizations on Android Security, CCS 2013
 + AndroSAT: Security Analysis Tool for Android Application, 8th International Conference on Emerging Security Information, System and Technologies, 2014
 + A Taxonomy of Privilege Escalation Attacks in Android Applications, International Journal of Security and Networks 2014
 + A Machine-learning Approach for Classifying and Categorizing Android Sources and Sinks, NDSS 2014
++ Andrubis -- 1,000,000 Apps Later: A View on Current Android Malware Behaviors, BADGERS 2014 (tool: Andrubis)
 + Securing Android: A Survey, Taxonomy, and Challenges, CSUR 2015
 + Collaborative Security: A Survey and Taxonomy, CSUR 2015
 + PRADA: Prioritizing Android Devices for Apps by Mining Large-Scale Usage Data, ICSE 2016 (It finds the prioritized devices for apps)
@@ -214,9 +225,11 @@
 + From Zygote to Morula: Fortifying Weakened ASLR on Android, S&P 2014
 + Peeking into Your App without Actually Seeing It: UI State Inference and Novel Android Attacks, USENIX Security 2014
 + Gyrophone: Recognizing Speech From Gyroscope Signals, USENIX Security 2014
++ Execute This! Analyzing Unsafe  and Malicious Dynamic Code Loading in Android Applications, NDSS 2014
 + Divide-and-Conquer: Why Android Malware cannot be Stopped, ARES 2014 (tool:Sand-Finger)
 + Rage Against the Virtual Machine: Hindering Dynamic Analysis of Android Malware, EuroSec 2014
 + Evading Android Runtime Analysis via Sandbox Detection, AsiaCCS 2014
++ Supor: Precise and Scalable Sensitive User Input Detection for Android Apps, USENIX 2014 (tool: Supor)
 + You Shouldn't Collect My Secrets: Thwarting Sensitive Keystroke Leakage in Mobile IME Apps, USENIX Security 2015
 + COVERT: Compositional Analysis of Android Inter-App Permission Leakage, TSE 2015
 + From System Services Freezing to System Server Shutdown in Android: All You Need is a Loop in an App, CCS 2015 (tool: ASV-Hunter, vul:Android Stroke Vulnerabilies)
@@ -256,6 +269,7 @@
 + Static Analysis of GUI Behavior in Android Applications, Ph.D Dissetation 2015
 + Reducing Combinatorics in GUI Testing of Android Applications, ICSE 2016 (tool: TrimDroid)
 + Attacks and Defence on Android Free Floating Windows, AsiaCCS 2016
++ Automated Model-Based Android GUI Testing using Multi-level GUI Comparison Criteria, ASE 2016
 
 ## Forensic Analysis
 + Checking App Behavior Against App Descriptions, ICSE 2014 (tool: CHABADA)
@@ -265,6 +279,8 @@
 + AUTOREB: Automatically Understanding the Review-to-Behavior Fidelity in Android Applications, CCS 2015 (tool: AUTOREB)
 
 ## Obfuscation & Evasion Techniques
+ + Evading Android Runtime Analysis via Sandbox Detection, AsiaCCS 2014
+ + Rage Against the Virtual Machine: Hindering Dynamic Analysis of Android Malware, EuroSec 2014
  + Stealth Attacks: An Extended Insight into the Obfuscation Effects on Android Malware, Computer & Science 2015
 
 ## Fuzzing Test for Vulnerabilities
@@ -279,3 +295,10 @@
  + Reducing Attack Surface on Cordova-based Hybrid Mobile Apps, MobileDeli 2014
  + Attack and Countermeasures for Webview on Mobile System, Dissertations 2014
  + On the Static Analysis of Hybrid Mobile Apps, A Report on the State of Apache Cordova Nation, ESSoS 2016
+ + Automatic Permission Inference for Hybrid Mobile Apps, Journal of High Speed Networks 2016
+ + HybriDroid: Static Analysis Framework for Android Hybrid Applications, ASE 2016
+
+## Android Compatibility Issues
+ + Understanding Android Fragmentation with Topic Analysis of Vendor-Specific Bugs, WCRE 2012
+ + Taming Android Fragmentation: Characterizing and Detecting Compatibility Issues for Android Apps, ASE 2016 (tool: FicFinder)
+
